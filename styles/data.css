@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Resetting default margin and padding for all elements */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(to bottom, #10BFEA 0%, #22D655 100%);
+    color: #3026A6;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Main content styles */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.pair-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.text-container, .image-container {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding: 10px;
+}
+
+/* Home button styles */
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FF4C4C;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Links styles */
+a {
+    color: #3026A6;
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #10BFEA;
+}
+
+/* Horizontal rule styles */
+hr {
+    border: 1px solid #3026A6;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    .pair-container {
+        flex-direction: column;
+    }
+
+    img {
+        padding: 5px;
+    }
+}
