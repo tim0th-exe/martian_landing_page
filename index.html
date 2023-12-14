@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Grey #433e3f, Orange #fb8b24, Cyan #4effef, Blue #0892a5, Yellow #f0f757  -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,21 +7,28 @@
     <title>Martian Landing Page</title>
     <style>
         body {
-            background: #433e3f;
+            background-image: url("/images/mum.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: fixed;
             color: #dad7d8;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
 
+
         header {
-            background: #433e3f;
-            padding: 20px;
+            padding: 10px;
             text-align: left;
         }
 
         h1 {
-            color: #fb8b24;
+            background-color: #433e3f; /* Set background color */
+            color: #fb8b24; /* Text color */
+            padding: 10px; /* Add padding for spacing */
+            margin: 0; /* Remove default margin */
         }
 
         hr {
@@ -28,7 +36,8 @@
         }
 
         p {
-            margin: 20px 0;
+            color: #433e3f;
+            margin: 10px 0;
         }
 
         main {
@@ -39,12 +48,15 @@
         a {
             color: #4effef;
             text-decoration: none;
-            padding: 10px;
             border-radius: 5px;
+            padding: 10px; /* Adding padding instead of margin */
+            display: inline-block; /* Set display to inline-block */
+            margin: 0; /* Reset margin to ensure no additional spacing */
         }
 
+
+
         footer {
-            background: #433e3f;
             padding: 20px;
             text-align: left;
             position: absolute;
@@ -68,12 +80,16 @@
         of artistic expression.
     </p>
     <h2>DISCLAIMER: This site is under construction. Please pardon the mess. I am learning HTML as I go.</h2>
-    <p style="font-style: italic">And if you're a potential employer perhaps see the cool proactiveness in building a site from scratch rather than
+    <p style="font-style: italic; color: #f0f757">And if you're a potential employer perhaps it'd be cool if you could
+        see the cool proactiveness in building a site from scratch rather than
     paying for squarespace</p>
+    <hr/>
 </header>
 
 <main>
-    <a href="projects/data.html">Toward Protopia : Coral</a>
+    <h1>Projects & Musings</h1>
+    <h3 style="font-style: italic; background-color: #433e3f; padding: 5px">Throughout the site many images will be clickable to open full scale versions</h3>
+    <a href="projects/data.html">Toward Protopia : Coral (Data Analysis and Storytelling)</a>
 </main>
 
 <footer>
