@@ -1,0 +1,181 @@
+<!-- Colors Used -->
+<!-- purple #3026A6, Blue #10BFEA, Green #22D655 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Data Workings of Timothy Martian">
+    <title>Toward Protopia : Coral</title>
+    <link rel="stylesheet" type="text/css" href="/styles/data.css">
+    <script>
+        function goToHomePage() {
+            // Add logic to navigate to the homepage
+            window.location.href = "/index.html";
+        }
+    </script>
+</head>
+
+
+
+<body>
+
+<header>
+    <h1>Toward Protopia : Coral</h1>
+    <hr>
+</header>
+
+<main>
+    <div class="pair-container">
+        <div class="text-container">
+            <h2 style="text-align: right">Staghorn Coral</h2>
+            <p style="text-align: right">Corals look colorful underwater, but they are actually transparent.
+                They get their color from the algae, especially zooxanthellae, that live within them. Zooxanthellae
+                have a pigment called chlorophyll that typically gives them their vibrant array of colors</p>
+        </div>
+        <div class="image-container">
+            <img src="/images/Coral/staghorn.jpg" alt="An image of staghorn coral">
+        </div>
+    </div>
+
+    <h3>Distribution of Coral Worldwide</h3>
+    <a href="/images/Coral/distribution_of_coral.png" class="image-link" target="_blank">
+        <img style="width: 60%; height: auto" src="/images/Coral/distribution_of_coral.png" alt="Distribution of Coral">
+    </a>
+
+    <div class="pair-container">
+        <div class="image-container">
+            <a href="/images/Coral/bleached_coral.png" class="image-link" target="_blank">
+                <img src="/images/Coral/bleached_coral.png" alt="An image of bleached coral">
+            </a>
+        </div>
+        <div class="text-container">
+            <h2 style="text-align: left">Bleached Coral</h2>
+            <p style="text-align: left">When corals are stressed by changes in conditions such as temperature, light, or nutrients, they
+                expel the symbiotic algae living in their tissues, causing them to turn completely white. This is
+                called coral bleaching. When a coral bleaches, it is not dead. Corals can survive a bleaching
+                event, but they are under more stress and are subject to mortality.</p>
+        </div>
+    </div>
+
+    <h3 style="text-align: center">Bleaching rates over time and warming contributors/global temperatures</h3>
+
+
+    <div class="pair-container">
+        <div class="image-container">
+            <a href="/images/Coral/bleaching_rates.png" class="image-link" target="_blank">
+                <img src="/images/Coral/bleaching_rates.png" alt="A graph demonstrating cumulative bleaching rates">
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="/images/Coral/warming_contributors.png" class="image-link" target="_blank">
+                <img src="/images/Coral/warming_contributors.png" alt="A graph demonstrating warming contributors">
+            </a>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 style="text-align: center">Moving Forward : Protopia</h2>
+    <p style="text-align: center">Protopia is a state of becoming, rather than a destination. It is a process of becoming better
+                through incremental steps. It is a positive state of progress that is always moving forward. As an example
+    I would like to share with you a project I have been working on as inspiration for how we can move forward in using
+        data and technology to help protect our environment.
+    </p>
+
+    <a href="/images/Coral/protopia_title.png" class="image-link" target="_blank">
+        <img src="/images/Coral/protopia_title.png" alt="A graph demonstrating warming contributors" style="width: 60%; height: auto">
+    </a>
+
+
+    <div class="pair-container">
+        <div class="text-container">
+            <h2 style="text-align: right"> Tensorflow Image Classification</h2>
+            <p style="text-align: right">TensorFlow is an end-to-end open source platform for machine learning. It has a
+                comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers
+                push the state-of-the-art in ML and developers easily build and deploy ML powered applications.</p>
+            <p style="text-align: right">The image classification model I have made is designed to classify images of
+                corals as either "bleached" or "healthy."
+            The model is built using TensorFlow and Keras, it is a type of neural network called a Convolutional Neural
+            Network (CNN), which is well-suited for image analysis tasks. </p>
+        </div>
+        <div class="image-container">
+            <a href="/images/Coral/bleached_healthy_coral.png" class="image-link" target="_blank">
+                <img src="/images/Coral/bleached_healthy_coral.png" alt="A graph demonstrating warming contributors">
+            </a>
+        </div>
+    </div>
+
+    <h2 style="text-align: center">Convolutional Layers</h2>
+    <p style="text-align: center">Convolutional layers are the major building blocks used in convolutional neural networks.
+        Each convolutional layer applies a set of learnable to the input image to detect features such as edges, lines, colors, etc.
+        The deeper layers in a convolutional model we capture more complex or abstract features.</p>
+
+    <div class="pair-container">
+        <div class="image-container">
+            <a href="/images/Coral/healthy_1.png" class="image-link" target="_blank">
+                <img src="/images/Coral/healthy_1.png" alt="An image of healthy coral">
+            </a>
+            </div>
+        <div class="image-container">
+            <a href="/images/Coral/convolutional_layers_1.png" class="image-link" target="_blank">
+                <img src="/images/Coral/convolutional_layers_1.png" alt="A visualisation of convolutional layers">
+            </a>
+            </div>
+    </div>
+
+    <div class="pair-container">
+        <div class="image-container">
+            <a href="/images/Coral/bleached_1.png" class="image-link" target="_blank">
+                <img src="/images/Coral/bleached_1.png" alt="An image of bleached coral">
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="/images/Coral/conv2.png" class="image-link" target="_blank">
+                <img src="/images/Coral/conv2.png" alt="A visualisation of convolutional layers">
+            </a>
+        </div>
+    </div>
+
+    <div class="pair-container">
+        <div class="text-container">
+            <h2 style="text-align: right">Training the Model & Data Augmentation</h2>
+            <p style="text-align: right">The model was trained on 80% of the data, and tested on the remaining 20%.
+                Importantly the data was augmented to increase the size of the dataset. This is done by applying a series
+                of random transformations to the images, such as rotation, zooming, and flipping. This allows the model
+                to learn more generalizable features, and prevents overfitting.</p>
+        </div>
+        <div class="image-container">
+            <a href="/images/Coral/augmentation_coral.png" class="image-link" target="_blank">
+                <img src="/images/Coral/augmentation_coral.png" alt="An image of bleached coral">
+            </a>
+        </div>
+
+    </div>
+
+    <h2 style="text-align: center">Results</h2>
+    <p style="text-align: center">The models accuracy is still being improved, but it is currently able to classify
+        images of coral with about 80% accuracy. This is a good start, but there is still a lot of work to be done.</p>
+    <p>I hope to continue to improve the model, and I see a lot of potential for use cases. For example, the model
+        could be used to classify images of coral taken by IBM's mayflower autonomous ship, allowing for a fully autonomous,
+        coral health monitoring system.</p>
+    <hr>
+
+    <!-- Add a floating home page button -->
+    <button class="home-button" onclick="goToHomePage()">Home</button>
+
+
+
+
+
+</main>
+
+<a class="home-button" href="/index.html">Home</a>
+
+</body>
+
+<footer>
+    <p>Timothy Martian</p>
+    <p>2023</p>
+
+</html>
