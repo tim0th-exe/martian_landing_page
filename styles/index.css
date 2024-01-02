@@ -1,0 +1,59 @@
+body {
+    background-image: url("images/index/mum.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    color: #dad7d8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    text-align: left;
+}
+
+h1 {
+    background-color: #433e3f;
+    color: #fb8b24;
+    padding: 10px;
+    margin: 0;
+}
+
+hr {
+    border: 1px solid #dad7d8;
+}
+
+p {
+    color: #433e3f;
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+a {
+    color: #4effef;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: #0892a5;
+}
+
+a:hover {
+    background-color: #4effef;
+    color: #0892a5;
+}
+
+footer {
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
