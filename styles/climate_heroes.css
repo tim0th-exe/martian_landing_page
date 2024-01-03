@@ -1,26 +1,39 @@
-/* climate_heroes.css */
-
+/* Reset and Basics */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f5f5f5;
 }
 
+/* Heading Styles */
 h1 {
     color: #0066cc;
     text-align: center;
+    margin-bottom: 20px;
 }
 
+/* Subheading Styles */
+h2 {
+    color: #0066cc;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Paragraph Styles */
 p {
     margin-bottom: 15px;
     text-align: center;
+    color: #333;
+    line-height: 1.6;
 }
 
+/* Image Container Styles */
 .image-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
+/* Image Styles */
 img {
     max-width: 100%;
     height: auto;
@@ -32,32 +45,41 @@ img {
     margin: 0 auto;
 }
 
+/* Section Title Styles */
 .section-title {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
-    margin-bottom: 15px;
-    color: #333;
+    margin-bottom: 20px;
+    color: #0066cc;
 }
 
-.caption {
-    text-align: center;
-    font-style: italic;
-    color: #666;
-}
-
+/* Video Container Styles */
 .video-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px;
 }
 
+/* Video Styles */
 .video {
-    margin-bottom: 20px; /* Adjust as needed */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* Video Iframe Styles */
 .video iframe {
-    width: 660px; /* Set your desired width */
-    height: 371px; /* Set your desired height */
+    width: 100%;
+    max-width: 660px;
+    height: 371px;
+}
+
+/* Caption Styles */
+.caption {
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
 }
