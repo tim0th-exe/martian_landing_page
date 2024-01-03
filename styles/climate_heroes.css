@@ -83,3 +83,24 @@ img {
     text-align: center;
     color: #555;
 }
+
+
+/* Home Button Styles */
+.home-button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.home-button a:hover {
+    background-color: #004080; /* Darker shade on hover */
+}

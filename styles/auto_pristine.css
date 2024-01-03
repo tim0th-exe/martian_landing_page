@@ -28,7 +28,8 @@ p {
     font-size: 1.2em;
 }
 
-.btn {
+/* Button Styles */
+.btn-race {
     display: inline-block;
     padding: 15px 30px;
     font-size: 1.5em;
@@ -39,8 +40,23 @@ p {
     border-radius: 8px;
     transition: background-color 0.3s ease;
     cursor: pointer;
+    margin-right: 20px; /* Adjust margin as needed */
 }
 
-.btn:hover {
+.btn-race:hover {
     background-color: #ff3385;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-home:hover {
+    background-color: #004080; /* Darker shade on hover */
 }
