@@ -1,59 +1,95 @@
+/* Color Variables */
+/* --blue: #0022ffff; */
+/* --aerospace-orange: #ff5100ff; */
+/* --white: #ffffffff; */
+/* --jet: #353238ff; */
+
 body {
-    background-image: url("/images/index/mum.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    color: #dad7d8;
-    font-family: Arial, sans-serif;
+    background-color: #ffffffff; /* White background color */
+    color: #353238ff; /* Jet text color */
+    font-family: 'Exo', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    padding: 10px;
-    text-align: left;
+    background-color: #ffffff;
+    color: #ffffffff; /* White text color for header */
+    text-align: left; /* Align header text to the left */
+    padding: 20px;
 }
 
 h1 {
-    background-color: #433e3f;
-    color: #fb8b24;
-    padding: 10px;
-    margin: 0;
+    color: #ff5100ff; /* Aerospace Orange text color for headers */
+    text-align: left; /* Align headers to the left */
+}
+
+h2, h3 {
+    color: #0022ffff; /* Blue text color for headers */
 }
 
 hr {
-    border: 1px solid #dad7d8;
+    border: 1px solid #353238ff; /* Jet border color */
 }
 
 p {
-    color: #433e3f;
-    margin: 10px 0;
+    color: #353238ff; /* Jet text color for paragraphs */
+    margin: 20px 0;
+    padding: 10px;
+    text-align: left; /* Align paragraphs to the left */
 }
 
 main {
     padding: 20px;
-    text-align: left;
+    text-align: left; /* Align main content to the left */
 }
 
 a {
-    color: #4effef;
+    color: #0022ffff; /* Blue link color */
     text-decoration: none;
-    padding: 10px;
-    margin: 10px 0;
     display: inline-block;
-    background-color: #0892a5;
+    padding: 8px; /* Padding around the links */
+    border: 1px solid #0022ffff; /* Blue border around the links */
+    transition: background-color 0.3s, color 0.3s;
 }
 
 a:hover {
-    background-color: #4effef;
-    color: #0892a5;
+    background-color: #0022ffff; /* Blue background on hover for links */
+    color: #ff5100ff; /* Aerospace Orange text color on hover for links */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container a {
+    background-color: #ff5100ff; /* Aerospace Orange background color for buttons */
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-container a:hover {
+    background-color: #0022ffff; /* Blue background on hover for buttons */
+    color: #ff5100ff; /* Aerospace Orange text color on hover for buttons */
 }
 
 footer {
+    color: #353238ff; /* Jet text color for footer */
+    text-align: left; /* Align footer text to the left */
     padding: 20px;
-    text-align: left;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+}
+
+footer a {
+    color: #0022ffff; /* Blue link color for footer */
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px; /* Padding around the links */
+    border: 1px solid #0022ffff; /* Blue border around the links */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer a:hover {
+    background-color: #0022ffff; /* Blue background on hover for footer links */
+    color: #ff5100ff; /* Aerospace Orange text color on hover for footer links */
 }
