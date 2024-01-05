@@ -50,6 +50,7 @@ a {
     display: inline-block;
     padding: 8px; /* Padding around the links */
     border: 1px solid #0022ffff; /* Blue border around the links */
+    border-radius: 8px;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -86,6 +87,7 @@ footer a {
     display: inline-block;
     padding: 8px; /* Padding around the links */
     border: 1px solid #0022ffff; /* Blue border around the links */
+    border-radius: 8px;
     transition: background-color 0.3s, color 0.3s;
 }
 
