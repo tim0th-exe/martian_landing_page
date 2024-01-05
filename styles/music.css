@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+    background-color: #ffffffff;
+    color: #353238ff;
+    font-family: 'Exo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    color: #ffffffff;
+    text-align: left;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff5100ff;
+    text-align: left;
+}
+
+p {
+    color: #353238ff;
+    margin: 20px 0;
+    padding: 10px;
+    text-align: left;
+}
+
+h2, h3 {
+    color: #0022ffff;
+}
+
+/* Main Styles */
+main {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    color: #353238ff;
+    text-align: left;
+    padding: 20px;
+}
+
+.footer a {
+    color: #0022ffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #0022ffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer a:hover {
+    background-color: #0022ffff;
+    color: #ff5100ff;
+}
