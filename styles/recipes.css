@@ -1,61 +1,63 @@
 /* Color Variables */
-/* --blue: #0022ffff; */
-/* --aerospace-orange: #ff5100ff; */
-/* --white: #ffffffff; */
-/* --jet: #353238ff; */
+:root {
+    --blue: #0022ffff;
+    --aerospace-orange: #ff5100ff;
+    --white: #ffffffff;
+    --jet: #353238ff;
+}
 
 body {
-    background-color: #ffffffff; /* White background color */
-    color: #353238ff; /* Jet text color */
+    background-color: var(--white);
+    color: var(--jet);
     font-family: 'Exo', sans-serif;
-    margin: 10px; /* Added margin to body */
+    margin: 10px;
     padding: 0;
 }
 
 header {
-    background-color: #ffffff;
-    color: #353238ff; /* Jet text color for header */
-    text-align: left; /* Align header text to the left */
+    background-color: var(--white);
+    color: var(--jet);
+    text-align: left;
     padding: 20px;
 }
 
 h1 {
-    color: #ff5100ff; /* Aerospace Orange text color for headers */
-    text-align: left; /* Align headers to the left */
+    color: var(--aerospace-orange);
+    text-align: left;
 }
 
 h2, h3 {
-    color: #0022ffff; /* Blue text color for headers */
+    color: var(--blue);
 }
 
 hr {
-    border: 1px solid #353238ff; /* Jet border color */
+    border: 1px solid var(--jet);
 }
 
 p {
-    color: #353238ff; /* Jet text color for paragraphs */
-    margin: 20px 0;
+    color: var(--jet);
+    margin: 10px 0;
     padding: 10px;
-    text-align: left; /* Align paragraphs to the left */
+    text-align: left;
 }
 
 main {
     padding: 20px;
-    text-align: left; /* Align main content to the left */
+    text-align: left;
 }
 
 a {
-    color: #0022ffff; /* Blue link color */
+    color: var(--blue);
     text-decoration: none;
     display: inline-block;
-    padding: 8px; /* Padding around the links */
-    border: 1px solid #0022ffff; /* Blue border around the links */
+    padding: 8px;
+    border: 1px solid var(--blue);
     transition: background-color 0.3s, color 0.3s;
 }
 
 a:hover {
-    background-color: #0022ffff; /* Blue background on hover for links */
-    color: #ff5100ff; /* Aerospace Orange text color on hover for links */
+    background-color: var(--blue);
+    color: var(--aerospace-orange);
 }
 
 .button-container {
@@ -64,32 +66,63 @@ a:hover {
 }
 
 .button-container a {
-    background-color: #ff5100ff; /* Aerospace Orange background color for buttons */
+    background-color: var(--aerospace-orange);
     padding: 10px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .button-container a:hover {
-    background-color: #0022ffff; /* Blue background on hover for buttons */
-    color: #ff5100ff; /* Aerospace Orange text color on hover for buttons */
+    background-color: var(--blue);
+    color: var(--aerospace-orange);
 }
 
 footer {
-    color: #353238ff; /* Jet text color for footer */
-    text-align: left; /* Align footer text to the left */
+    color: var(--jet);
+    text-align: left;
     padding: 20px;
 }
 
 footer a {
-    color: #0022ffff; /* Blue link color for footer */
+    color: var(--blue);
     text-decoration: none;
     display: inline-block;
-    padding: 8px; /* Padding around the links */
-    border: 1px solid #0022ffff; /* Blue border around the links */
+    padding: 8px;
+    border: 1px solid var(--blue);
     transition: background-color 0.3s, color 0.3s;
 }
 
 footer a:hover {
-    background-color: #0022ffff; /* Blue background on hover for footer links */
-    color: #ff5100ff; /* Aerospace Orange text color on hover for footer links */
+    background-color: var(--blue);
+    color: var(--aerospace-orange);
+}
+
+.home-container {
+    padding: 20px;
+}
+
+.recipe-box {
+    background-color: var(--white);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+}
+
+.recipe-box h2 {
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+.recipe-box a {
+    color: var(--blue);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.recipe-box a:hover {
+    color: var(--aerospace-orange);
+}
+
+.recipe-box p {
+    margin: 10px 0;
 }
