@@ -8,7 +8,7 @@ body, h1, h2, h3, p, img {
 
 /* Body styles */
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Exo', sans-serif;
     background: linear-gradient(to bottom, #22D655 0%, #10BFEA 100%);
     color: #3026A6;
 }

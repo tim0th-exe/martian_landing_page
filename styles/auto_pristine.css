@@ -4,59 +4,78 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
-    color: #00ffcc;
-    font-family: 'Bebas Neue', sans-serif;
+    color: #FAFAFA; /* White text */
+    font-family: 'Exo', sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
 }
 
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 h1 {
     font-size: 3em;
-    margin-bottom: 20px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px 0; /* Adjusted margin */
+    color: #FCEE09; /* Yellow */
 }
 
 p {
     font-size: 1.2em;
+    color: #FAFAFA; /* White text */
 }
 
 /* Button Styles */
-.btn-race {
+.btn-race,
+.btn-home {
     display: inline-block;
-    padding: 15px 30px;
     font-size: 1.5em;
     text-decoration: none;
-    background-color: #ff66b2;
-    color: #000;
-    border: 2px solid #fff;
-    border-radius: 8px;
+    border-radius: 0; /* No rounded corners */
     transition: background-color 0.3s ease;
     cursor: pointer;
-    margin-right: 20px; /* Adjust margin as needed */
+    margin: 10px; /* Adjusted margin */
+    border: 2px solid #FAFAFA; /* White border */
+}
+
+.btn-race {
+    padding: 15px 30px;
+    background-color: #FF003C; /* Red */
+    color: #FAFAFA; /* White text */
 }
 
 .btn-race:hover {
-    background-color: #ff3385;
+    background-color: #C70023; /* Darker red on hover */
 }
 
 .btn-home {
-    display: inline-block;
     padding: 10px 20px;
-    background-color: #0066cc;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    background-color: #00F0FF; /* Blue */
+    color: #FAFAFA; /* White text */
 }
 
 .btn-home:hover {
-    background-color: #004080; /* Darker shade on hover */
+    background-color: #0097A7; /* Darker blue on hover */
+}
+
+.development-section {
+    text-align: center;
+    margin: 20px 0; /* Adjusted margin */
+}
+
+.development-section h2 {
+    font-size: 2em;
+    margin: 10px 0; /* Adjusted margin */
+    color: #FCEE09; /* Yellow */
+}
+
+.development-section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #00F0FF; /* Blue border for the image */
 }
