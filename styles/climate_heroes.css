@@ -1,39 +1,51 @@
-/* Reset and Basics */
+/* Color Variables */
+/* --blue: #0022ffff; */
+/* --aerospace-orange: #ff5100ff; */
+/* --white: #ffffffff; */
+/* --jet: #353238ff; */
+
 body {
+    background-image: url('/images/climate_heroes/Micro-White-Grid-Tile.jpg');
+    background-repeat: repeat;
+    background-size: auto; /* Use the actual size of the image for repetition */
+    color: #353238ff; /* Jet text color */
     font-family: 'Exo', sans-serif;
-    margin: 20px;
-    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
 
-/* Heading Styles */
+
+header {
+    background-color: #ffffff;
+    color: #ffffffff; /* White text color for header */
+    text-align: center; /* Align header text to the left */
+    padding: 20px;
+}
+
 h1 {
-    color: #0066cc;
-    text-align: center;
-    margin-bottom: 20px;
+    color: #ff5100ff; /* Aerospace Orange text color for headers */
+    text-align: center; /* Align headers to the left */
+    margin-bottom: 20px; /* Adjusted margin */
 }
 
-/* Subheading Styles */
 h2 {
-    color: #0066cc;
-    text-align: center;
-    margin-bottom: 15px;
+    color: #0022ffff; /* Blue text color for subheadings */
+    text-align: center; /* Center subheading text */
+    margin-bottom: 15px; /* Adjusted margin */
 }
 
-/* Paragraph Styles */
 p {
+    color: #353238ff; /* Jet text color for paragraphs */
     margin-bottom: 15px;
-    text-align: center;
-    color: #333;
+    text-align: center; /* Align paragraphs to the left */
     line-height: 1.6;
 }
 
-/* Image Container Styles */
 .image-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Image Styles */
 img {
     max-width: 100%;
     height: auto;
@@ -45,16 +57,14 @@ img {
     margin: 0 auto;
 }
 
-/* Section Title Styles */
 .section-title {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #0066cc;
+    color: #0022ffff; /* Blue text color for section titles */
 }
 
-/* Video Container Styles */
 .video-container {
     display: flex;
     flex-direction: column;
@@ -62,7 +72,6 @@ img {
     margin-top: 20px;
 }
 
-/* Video Styles */
 .video {
     margin-bottom: 20px;
     display: flex;
@@ -70,22 +79,18 @@ img {
     align-items: center;
 }
 
-/* Video Iframe Styles */
 .video iframe {
     width: 100%;
     max-width: 660px;
     height: 371px;
 }
 
-/* Caption Styles */
 .caption {
     margin-top: 10px;
     text-align: center;
     color: #555;
 }
 
-
-/* Home Button Styles */
 .home-button {
     text-align: center;
     margin-bottom: 20px;
@@ -94,13 +99,13 @@ img {
 .home-button a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0066cc;
-    color: #fff;
+    background-color: #0022ffff; /* Blue background color for home button */
+    color: #ff5100ff; /* Aerospace Orange text color for home button */
     text-decoration: none;
-    border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .home-button a:hover {
-    background-color: #004080; /* Darker shade on hover */
+    background-color: #ff5100ff; /* Aerospace Orange background on hover */
+    color: #0022ffff; /* Blue text color on hover */
 }

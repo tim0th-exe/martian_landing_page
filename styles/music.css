@@ -1,4 +1,10 @@
 /* Global Styles */
+/* Color Variables */
+/* --blue: #0022ffff; */
+/* --aerospace-orange: #ff5100ff; */
+/* --white: #ffffffff; */
+/* --jet: #353238ff; */
+
 body {
     background-color: #ffffffff;
     color: #353238ff;
