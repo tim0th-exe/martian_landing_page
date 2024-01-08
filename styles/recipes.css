@@ -9,9 +9,6 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url('/images/recipes/cooking.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Exo', sans-serif;
     padding: 20px;
 }
