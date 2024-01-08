@@ -1,6 +1,6 @@
 /* Color Variables */
 :root {
-    --white: rgba(239, 239, 239, 0.5); /* Adjust the alpha value (0.5 for 50% transparency) */
+    --white: rgba(239, 239, 239, 0.6); /* Adjust the alpha value (0.5 for 50% transparency) */
     --ultramarine: #0015ffff;
     --dark-moss-green: #346312ff;
     --night: #121619ff;
@@ -12,7 +12,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background-image: url('/images/index/tube.JPG');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     font-family: 'Exo', sans-serif;
     padding: 20px;
@@ -44,6 +44,7 @@ body {
 main {
     padding: 20px;
     text-align: center;
+    background-color: var(--white);
 }
 
 h1, h2, h3 {
