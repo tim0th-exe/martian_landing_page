@@ -1,6 +1,6 @@
 /* Color Variables */
 :root {
-    --transparent: rgba(224, 208, 203, 0.6);
+    --transparent: rgba(215, 207, 197, 0.6);
     --ultramarine: #0015ffff;
     --night: #121619ff;
     --aerospace-orange: #ff4d00ff;
@@ -10,7 +10,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background-image: url('/images/index/tube.JPG');
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Exo', sans-serif;
     padding: 20px;
