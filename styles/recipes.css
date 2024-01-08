@@ -1,129 +1,97 @@
 /* Color Variables */
 :root {
-    --blue: #0022ffff;
-    --aerospace-orange: #ff5100ff;
-    --transparent: rgba(239, 239, 239, 0.6);
-    --jet: #353238ff;
+    --transparent: rgba(215, 207, 197, 0.6);
+    --ultramarine: #0015ffff;
+    --night: #121619ff;
+    --aerospace-orange: #ff4d00ff;
 }
 
 body {
-    background-color: var(--white);
-    color: var(--jet);
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('/images/recipes/cooking.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Exo', sans-serif;
-    margin: 10px;
-    padding: 0;
-}
-
-header {
-    background-color: var(--white);
-    color: var(--jet);
-    text-align: left;
     padding: 20px;
 }
 
-h1 {
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--transparent);
+}
+
+.header-content {
+    width: 70%;
+    text-align: center;
+}
+
+.header-content h1 {
     color: var(--aerospace-orange);
-    text-align: left;
+    font-size: 28px;
 }
 
-h2, h3 {
-    color: var(--blue);
-}
-
-hr {
-    border: 1px solid var(--jet);
-}
-
-p {
-    color: var(--jet);
-    margin: 10px 0;
-    padding: 10px;
-    text-align: left;
+.header-content p {
+    color: var(--night);
+    margin: 20px 0;
 }
 
 main {
     padding: 20px;
-    text-align: left;
+    text-align: center;
+    background-color: var(--transparent);
+}
+
+h1, h2, h3 {
+    color: var(--ultramarine);
+}
+
+hr {
+    border: 1px solid var(--night);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 20px;
 }
 
 a {
-    color: var(--blue);
+    color: var(--ultramarine);
     text-decoration: none;
     display: inline-block;
-    padding: 6px;
-    border: 1px solid var(--blue);
+    padding: 8px;
+    border: 1px solid var(--ultramarine);
     border-radius: 8px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 a:hover {
-    background-color: var(--blue);
-    color: var(--aerospace-orange);
-}
-
-.button-container {
-    display: flex;
-    gap: 10px;
-}
-
-.button-container a {
-    background-color: var(--aerospace-orange);
-    padding: 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.button-container a:hover {
-    background-color: var(--blue);
+    background-color: var(--ultramarine);
     color: var(--aerospace-orange);
 }
 
 footer {
-    color: var(--jet);
-    text-align: left;
+    background-color: var(--transparent);
+    color: var(--night);
+    text-align: center;
     padding: 20px;
 }
 
 footer a {
-    color: var(--blue);
+    color: var(--ultramarine);
     text-decoration: none;
     display: inline-block;
     padding: 8px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--ultramarine);
+    border-radius: 8px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 footer a:hover {
-    background-color: var(--blue);
+    background-color: var(--ultramarine);
     color: var(--aerospace-orange);
-}
-
-.home-container {
-    padding: 20px;
-}
-
-.recipe-box {
-    background-color: var(--white);
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid var(--blue);
-    border-radius: 8px;
-}
-
-.recipe-box h2 {
-    color: var(--blue);
-    margin-bottom: 10px;
-}
-
-.recipe-box a {
-    color: var(--blue);
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.recipe-box a:hover {
-    color: var(--aerospace-orange);
-}
-
-.recipe-box p {
-    margin: 10px 0;
 }
