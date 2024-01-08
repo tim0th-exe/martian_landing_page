@@ -1,6 +1,6 @@
 /* Color Variables */
 :root {
-    --white: #EFEFEF;
+    --white: rgba(239, 239, 239, 0.5); /* Adjust the alpha value (0.5 for 50% transparency) */
     --ultramarine: #0015ffff;
     --dark-moss-green: #346312ff;
     --night: #121619ff;
