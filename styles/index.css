@@ -9,6 +9,9 @@
 @font-face {
     font-family: 'Syntheti';
     src: url('syntheti.ttf') format('truetype');
+    font-weight: normal;
+    font-style: auto;
+    font-size: large;
 }
 
 body {
