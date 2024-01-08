@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Syntheti';
-    src: url('../styles/syntheti.ttf') format('truetype');
+    src: url('syntheti.ttf') format('truetype');
 }
 
 body {
