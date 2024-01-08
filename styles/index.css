@@ -6,13 +6,19 @@
     --aerospace-orange: #ff4d00ff;
 }
 
+@font-face {
+    font-family: 'Syntheti';
+    src: url('/styles/syntheti.ttf') format('truetype');
+    /* Add other font formats here if needed, like woff, woff2, etc. */
+}
+
 body {
     max-width: 1200px;
     margin: 0 auto;
     background-image: url('/images/index/tube.JPG');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Syntheti', sans-serif;
     padding: 20px;
 }
 
