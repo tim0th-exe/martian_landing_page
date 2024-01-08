@@ -2,9 +2,7 @@
 :root {
     --transparent: rgba(224, 208, 203, 0.6);
     --ultramarine: #0015ffff;
-    --dark-moss-green: #346312ff;
     --night: #121619ff;
-    --amber: #ffc021ff;
     --aerospace-orange: #ff4d00ff;
 }
 
@@ -12,7 +10,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background-image: url('/images/index/tube.JPG');
-    background-size: contain;
+    background-size: cover; 
     background-repeat: no-repeat;
     font-family: 'Exo', sans-serif;
     padding: 20px;
