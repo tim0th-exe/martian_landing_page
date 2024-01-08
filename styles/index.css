@@ -74,7 +74,7 @@ a:hover {
 
 footer {
     background-color: var(--white);
-    color: var(--white);
+    color: var(--night);
     text-align: center;
     padding: 20px;
 }
