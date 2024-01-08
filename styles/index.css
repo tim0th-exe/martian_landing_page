@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
     background: white;
     font-family: 'Syntheti', sans-serif;
-    padding: 20px;
+    padding: 30px;
     text-align: left;
     font-size: 20px; /* Adjust the font size as needed */
 }
@@ -36,12 +36,11 @@ body {
     text-align: center;
 }
 
-.header-content h1 {
+h1 {
     color: var(--aerospace-orange);
-    font-size: 28px;
 }
 
-.header-content p {
+p {
     color: var(--night);
     margin: 20px 0;
 }
@@ -52,7 +51,7 @@ main {
     background-color: var(--transparent);
 }
 
-h1, h2, h3 {
+h2, h3 {
     color: var(--ultramarine);
 }
 
@@ -86,19 +85,4 @@ footer {
     color: var(--night);
     text-align: center;
     padding: 20px;
-}
-
-footer a {
-    color: var(--ultramarine);
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px;
-    border: 1px solid var(--ultramarine);
-    border-radius: 8px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-footer a:hover {
-    background-color: var(--ultramarine);
-    color: var(--aerospace-orange);
 }
