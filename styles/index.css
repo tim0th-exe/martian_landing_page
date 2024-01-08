@@ -8,16 +8,13 @@
 
 @font-face {
     font-family: 'Syntheti';
-    src: url('/styles/syntheti.ttf') format('truetype');
-    /* Add other font formats here if needed, like woff, woff2, etc. */
+    src: url('../styles/syntheti.ttf') format('truetype');
 }
 
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url('/images/index/tube.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: white;
     font-family: 'Syntheti', sans-serif;
     padding: 20px;
 }
