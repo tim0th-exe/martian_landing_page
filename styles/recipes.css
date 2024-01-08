@@ -2,7 +2,7 @@
 :root {
     --blue: #0022ffff;
     --aerospace-orange: #ff5100ff;
-    --white: #ffffffff;
+    --transparent: rgba(239, 239, 239, 0.6);
     --jet: #353238ff;
 }
 

@@ -1,6 +1,6 @@
 /* Color Variables */
 :root {
-    --white: rgba(239, 239, 239, 0.6); /* Adjust the alpha value (0.5 for 50% transparency) */
+    --transparent: rgba(224, 208, 203, 0.6);
     --ultramarine: #0015ffff;
     --dark-moss-green: #346312ff;
     --night: #121619ff;
@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: var(--white);
+    background-color: var(--transparent);
 }
 
 .header-content {
@@ -44,7 +44,7 @@ body {
 main {
     padding: 20px;
     text-align: center;
-    background-color: var(--white);
+    background-color: var(--transparent);
 }
 
 h1, h2, h3 {
@@ -77,7 +77,7 @@ a:hover {
 }
 
 footer {
-    background-color: var(--white);
+    background-color: var(--transparent);
     color: var(--night);
     text-align: center;
     padding: 20px;
