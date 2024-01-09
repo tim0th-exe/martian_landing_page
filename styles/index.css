@@ -1,6 +1,6 @@
 /* Color Variables */
 :root {
-    --transparent: rgba(215, 207, 197, 0.6);
+    --white: rgb(255, 255, 255);
     --ultramarine: #0015ffff;
     --night: #121619ff;
     --aerospace-orange: #ff4d00ff;
@@ -28,14 +28,14 @@ body {
 .header-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
-    background-color: var(--transparent);
+    background-color: var(--white);
 }
 
 .header-content {
     width: 70%;
-    text-align: center;
+    text-align: left;
 }
 
 h1, h2 {
@@ -50,8 +50,8 @@ p {
 
 main {
     padding: 20px;
-    text-align: center;
-    background-color: var(--transparent);
+    text-align: left;
+    background-color: var(--white);
 }
 
 h3 {
@@ -85,8 +85,8 @@ a:hover {
 }
 
 footer {
-    background-color: var(--transparent);
+    background-color: var(--white);
     color: var(--night);
-    text-align: center;
+    text-align: left;
     padding: 20px;
 }
