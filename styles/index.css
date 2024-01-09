@@ -1,6 +1,6 @@
 /* Color Variables */
 :root {
-    --white: rgb(255, 255, 255);
+    --white: #FFFFFFFF;
     --ultramarine: #0015ffff;
     --night: #121619ff;
     --aerospace-orange: #ff4d00ff;
