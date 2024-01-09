@@ -15,27 +15,21 @@
 
 body {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     background-image: url('/images/index/mars.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Syntheti', sans-serif;
     padding: 30px;
     text-align: left;
-    font-size: 30px; /* Adjust the font size as needed */
+    font-size: 30px;
 }
 
-.header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
+header, main, footer {
     background-color: var(--white);
-}
-
-.header-content {
-    width: 70%;
+    color: var(--night);
     text-align: left;
+    padding: 20px;
 }
 
 h1, h2 {
@@ -46,12 +40,6 @@ h1, h2 {
 p {
     color: var(--night);
     margin: 20px 0;
-}
-
-main {
-    padding: 20px;
-    text-align: left;
-    background-color: var(--white);
 }
 
 h3 {
@@ -84,9 +72,4 @@ a:hover {
     color: var(--aerospace-orange);
 }
 
-footer {
-    background-color: var(--white);
-    color: var(--night);
-    text-align: left;
-    padding: 20px;
-}
+
