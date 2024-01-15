@@ -40,6 +40,7 @@ h1, h2 {
 p {
     font-family: 'Exo', sans-serif;
     color: var(--night);
+    font-size: 15px;
     margin: 20px 0;
 }
 
